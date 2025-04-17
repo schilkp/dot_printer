@@ -1,0 +1,24 @@
+{
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]",
+    "name": "SchilkRon",
+    "print_host": "schilkron",
+    "printable_area": [
+        "0x0",
+        "300x0",
+        "300x300",
+        "0x300"
+    ],
+    "printable_height": "300",
+    "printer_settings_id": "SchilkRon",
+    "retraction_length": [
+        "0.25"
+    ],
+    "retraction_speed": [
+        "35"
+    ],
+    "support_multi_bed_types": "1",
+    "version": "2.3.0.3"
+}
